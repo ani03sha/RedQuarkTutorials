@@ -594,6 +594,7 @@ workspace.xml
 /js/js.translator/testData/out-min/
 /js/js.translator/testData/out-pir/
 .gradle/
+gradle
 build/
 !**/src/**/build
 !**/test/**/build

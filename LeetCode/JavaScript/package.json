@@ -1,0 +1,10 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "LeetCode problems and their solutions implemented in JavaScript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anirudh Sharma",
+  "license": "MIT"
+}

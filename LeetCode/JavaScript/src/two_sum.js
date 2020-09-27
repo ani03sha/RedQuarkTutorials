@@ -1,4 +1,6 @@
-// @author Anirudh Sharma
+/**
+ * @author Anirudh Sharma
+ */
 
 var twoSum = function (nums, target) {
     // Array to store the result

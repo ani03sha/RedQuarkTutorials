@@ -1,6 +1,5 @@
 package org.redquark.tutorials.leetcode
 
-import java.util.*
 
 private fun lengthOfLongestSubstring(s: String): Int {
     // Base condition
@@ -18,7 +17,7 @@ private fun lengthOfLongestSubstring(s: String): Int {
     while (end < s.length) {
         if (uniqueCharacters.add(s[end])) {
             end++
-            maxLength = Math.max(maxLength, uniqueCharacters.size)
+            maxLength = maxLength.coerceAtLeast(uniqueCharacters.size)
         } else {
             uniqueCharacters.remove(s[start])
             start++

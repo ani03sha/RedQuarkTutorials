@@ -1,7 +1,7 @@
 # RedQuark Tutorials
 Code used in all my tutorials
 
-[![License](https://img.shields.io/badge/license-Apache_2.0-blue.svg)](LICENSE.md) ![Language](https://img.shields.io/badge/language-Java%20%2F%20Python%20%2F%20JavaScript%20%2F%20Kotlin-blue.svg) 
+[![License](https://img.shields.io/github/license/ani03sha/RedQuarkTutorials)](LICENSE.md) ![Language](https://img.shields.io/badge/language-Java%20%2F%20Python%20%2F%20JavaScript%20%2F%20Kotlin-blue.svg) 
 
 ## LeetCode
 

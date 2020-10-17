@@ -1,0 +1,14 @@
+{
+  "name": "javascript-snippets",
+  "version": "1.0.0",
+  "description": "This Node JS project houses small useful code snippets",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Anirudh Sharma <anirudh03sharma@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-cron": "^2.0.3"
+  }
+}

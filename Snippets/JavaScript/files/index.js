@@ -1,3 +1,7 @@
-const readFile = require("./readFile");
+const readFile = require('./readFile');
+const writeFile = require('./writeFile');
 
-module.exports = readFile;
+module.exports = {
+    readFile,
+    writeFile
+};

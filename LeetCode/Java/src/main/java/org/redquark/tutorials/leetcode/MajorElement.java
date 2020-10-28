@@ -6,7 +6,7 @@ This problem is mostly asked in Big Tech Companies like Google, Amazon
 *******************************************************************************/
 import java.util.Scanner;
 
-public class Main
+public class MajorElement
 {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);

@@ -26,16 +26,12 @@ fun letterCombinations(digits: String): List<String> {
 
 fun findCombinations(combinations: MutableList<String>, digits: String, previous: StringBuilder, index: Int, lettersAndNumbersMappings: Array<String>) {
     // Base condition for recursion to stop
-
-    // Base condition for recursion to stop
     if (index == digits.length) {
         combinations.add(previous.toString())
         return
     }
     // Get the letters corresponding to the current index of digits string
-    // Get the letters corresponding to the current index of digits string
     val letters = lettersAndNumbersMappings[digits[index] - '0']
-    // Loop through all the characters in the current combination of letters
     // Loop through all the characters in the current combination of letters
     for (c in letters.toCharArray()) {
         findCombinations(combinations, digits, previous.append(c), index + 1, lettersAndNumbersMappings)

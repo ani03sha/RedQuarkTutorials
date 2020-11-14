@@ -1,8 +1,8 @@
 package org.redquark.tutorials.leetcode
 
-fun removeNthFromEnd(head: ListNode?, n: Int): ListNode? {
+private fun removeNthFromEnd(head: ListNode19?, n: Int): ListNode19? {
     // Two pointers - fast and slow
-    var newHead: ListNode? = head
+    var newHead: ListNode19? = head
     var slow = newHead
     var fast = newHead
     // Move fast pointer n steps ahead
@@ -29,7 +29,7 @@ fun removeNthFromEnd(head: ListNode?, n: Int): ListNode? {
     return newHead
 }
 
-private fun printList(node: ListNode?) {
+private fun printList(node: ListNode19?) {
     var newNode = node
     while (newNode != null) {
         print(newNode.`val`.toString() + " ")
@@ -39,18 +39,25 @@ private fun printList(node: ListNode?) {
 }
 
 fun main() {
-    var head = ListNode(1)
-    head.next = ListNode(2)
-    head.next!!.next = ListNode(3)
-    head.next!!.next!!.next = ListNode(4)
-    head.next!!.next!!.next!!.next = ListNode(5)
+    var head = ListNode19(1)
+    head.next = ListNode19(2)
+    head.next!!.next = ListNode19(3)
+    head.next!!.next!!.next = ListNode19(4)
+    head.next!!.next!!.next!!.next = ListNode19(5)
     printList(removeNthFromEnd(head, 2))
 
-    head = ListNode(1)
+    head = ListNode19(1)
     printList(removeNthFromEnd(head, 1))
 
-    head = ListNode(1)
-    head.next = ListNode(2)
+    head = ListNode19(1)
+    head.next = ListNode19(2)
     printList(removeNthFromEnd(head, 1))
+}
+
+/**
+ * This class represents each node in the linked list
+ */
+internal class ListNode19(val `val`: Int) {
+    var next: ListNode19? = null
 }
 

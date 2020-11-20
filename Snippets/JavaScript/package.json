@@ -9,6 +9,7 @@
   "author": "Anirudh Sharma <anirudh03sharma@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "node-cron": "^2.0.3"
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.16"
   }
 }

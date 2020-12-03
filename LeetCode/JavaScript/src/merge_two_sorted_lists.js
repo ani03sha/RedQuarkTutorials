@@ -9,7 +9,7 @@ var mergeTwoLists = function (l1, l2) {
     // Head of the new linked list - this is the head of the resultant list
     let head = null;
     // Reference of head which is null at this point
-    let temp = head;
+    let temp;
     // Choose head which is smaller of the two lists
     if (l1.val < l2.val) {
         temp = head = new ListNode(l1.val);
@@ -59,10 +59,10 @@ function ListNode(val, next) {
     this.next = (next === undefined ? null : next)
 }
 
-head1 = new ListNode(1);
+let head1 = new ListNode(1);
 head1.next = new ListNode(2);
 head1.next.next = new ListNode(4);
-head2 = new ListNode(1);
+let head2 = new ListNode(1);
 head2.next = new ListNode(3);
 head2.next.next = new ListNode(4);
 printList(mergeTwoLists(head1, head2));
